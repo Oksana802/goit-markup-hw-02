@@ -1,0 +1,124 @@
+:root {
+  --primary-bg-color: #ffffff;
+  --primary-text-color: #434455;
+  --title-text-color: #2e2f42;
+  --accent-color: #4d5ae5;
+  --filtr-text-color: #4d5ae5;
+  --filtr-bg-color: #f4f4fd;
+}
+
+body {
+  background-color: var(--primary-bg-color);
+  color: var(--primary-text-color);
+  font-family: Roboto, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+ul {
+  list-style: none;
+}
+
+/* link logo */
+.link {
+  color: #4d5ae5;
+  text-decoration: none;
+}
+
+.link :hover,
+.link :focus {
+  color: var(--accent-color);
+}
+.logo {
+  font-family: Raleway, sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.logo-text {
+  color: #2e2f42;
+}
+
+.nav.link {
+  color: var(--title-text-color);
+  font-weight: 500;
+}
+.nav :hover,
+.nav :focus {
+  color: var(--accent-color);
+}
+.nav.link.current {
+  color: var(--accent-color);
+}
+/* tel mail */
+.address {
+  color: var(--primary-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+/* Hero */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+}
+
+/* Filter */
+
+.filter {
+  color: var(--filtr-text-color);
+  background-color: var(--filtr-bg-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+}
+
+.filter.primary {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/* Button */
+
+.button {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+/* Features */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1, 11;
+  text-align: center;
+  color: var(--title-text-color);
+}
+.list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  color: var(--title-text-color);
+}
+/* Our Team */
+.section-bg {
+  background-color: #f4f4fd;
+}
+
+/* FOOTER  */
+footer {
+  background-color: #2e2f42;
+}
+footer .logo-text,
+.footer-text {
+  color: #ffffff;
+}
