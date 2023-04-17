@@ -72,7 +72,7 @@ body {
 /* tel mail */
 .address {
   color: var(--color-text);
-  font-style: Regular;
+  font-style: normal;
   font-weight: 400;
 }
 
@@ -86,6 +86,7 @@ body {
   text-align: center;
   color: var(--color-white);
   text-decoration: none;
+  letter-spacing: 0.02em;
 }
 
 /* h2 */
@@ -95,6 +96,8 @@ body {
   text-transform: capitalize;
   color: var(--color-navy-blue);
   font-style: normal;
+  text-align: center;
+  letter-spacing: 0.02em;
 }
 
 /* h3 */
@@ -104,7 +107,21 @@ body {
   font-weight: 500;
   line-height: 1.2;
   color: var(--color-navy-blue);
+  letter-spacing: 0.02em;
+  text-align: center;
 }
+/* p */
+.text {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5px;
+  letter-spacing: 0.02em;
+  color: var(--color-text);
+  text-align: center;
+}
+
 /* bg Our Team */
 .section-bg {
   background: var(--color-cloud);
