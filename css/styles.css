@@ -144,13 +144,13 @@ body {
   cursor: pointer;
 }
 
-filter:hover,
-filter:focus {
+.filter:hover,
+.filter:focus {
   color: var(--color-white);
   background-color: var(--color-ocean);
 }
 
-footer {
+.footer {
   background-color: var(--color-navy-blue);
 }
 .footer .logo-text,
