@@ -44,6 +44,7 @@ body {
   line-height: 1.5;
   color: var(--color-navy-blue);
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 .list {
   list-style: none;
@@ -70,6 +71,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  font-style: normal;
 }
 
 .hero {
