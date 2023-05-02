@@ -1,12 +1,14 @@
-html {
+/* html {
   box-sizing: border-box;
-}
+} */
 
 /* *,
 *::before,
 *::after {
   box-sizing: inherit;
 } */
+
+/* reset start */
 
 h1,
 h2,
@@ -193,6 +195,8 @@ body {
 /* h1 */
 .hero-title {
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 48px;
   text-align: center;
 
@@ -247,6 +251,20 @@ body {
 /* Features */
 .section.no-padding {
   padding: 120px 0;
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 
 /* Portfolio */
